@@ -9,4 +9,6 @@ print(numpy.median(dataSet)) #Median
 print(stats.mode(dataSet)) #Mode
 
 print(numpy.std(dataSet)) #Standard deviation: The range of the mean where most values lie
-print(numpy.var(dataSet)) #Standard deviation: The range of the mean where most values lie
+print(numpy.var(dataSet)) #Varience
+print(numpy.percentile(dataSet, 75)) #Percentile: The value of the dataset where that percent of data lie below
+
